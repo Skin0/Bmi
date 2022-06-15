@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/layerout/home_layerout.dart';
 import 'package:project/modules/bmi/Bmi_Screen.dart';
 import 'package:project/modules/counter/Counter_Screen.dart';
 import 'package:project/modules/login/Login_Screen.dart';
@@ -16,6 +17,6 @@ void main ()
       {
         return
           MaterialApp(debugShowCheckedModeBanner: false,
-            home: LoginScreen(),);
+            home: HomeLayerout());
       }
     }

@@ -37,4 +37,4 @@ required TextEditingController controler,
       labelText: 'Email Address',
       border:OutlineInputBorder()
   ),
-),
+);
